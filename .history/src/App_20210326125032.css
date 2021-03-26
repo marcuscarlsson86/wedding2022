@@ -1,19 +1,12 @@
-@import "~antd/dist/antd.css";
 .App {
   text-align: center;
 }
 
-.site-card-wrapper {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-image: url("./assets/hero2.jpg");
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.center {
-  max-width: 1600px;
-  margin: auto;
-}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

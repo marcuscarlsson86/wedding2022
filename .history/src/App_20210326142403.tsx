@@ -9,7 +9,7 @@ function App() {
     <Layout>
       <Navigation />
       <Content>
-        <TextBox date="22-05-28" headline="Save The Date" />
+        <TextBox date="23" />
       </Content>
       <Footer>Footer</Footer>
     </Layout>

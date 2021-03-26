@@ -1,3 +1,5 @@
+import React from "react";
+import logo from "./logo.svg";
 import "./App.css";
 import { Navigation } from "./components/header";
 import { TextBox } from "./components/centerText";
@@ -9,7 +11,7 @@ function App() {
     <Layout>
       <Navigation />
       <Content>
-        <TextBox date="22-05-28" headline="Save The Date" />
+        <TextBox headline="Save the date" date="28-05-22" />
       </Content>
       <Footer>Footer</Footer>
     </Layout>

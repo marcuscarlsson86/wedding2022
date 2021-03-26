@@ -1,15 +1,21 @@
+import React from "react";
+import logo from "./logo.svg";
 import "./App.css";
 import { Navigation } from "./components/header";
-import { TextBox } from "./components/centerText";
+import { HeroImage } from "./components/hero";
 import { Layout } from "antd";
-const { Footer, Content } = Layout;
+
+const { Header, Footer, Sider, Content } = Layout;
 
 function App() {
   return (
     <Layout>
-      <Navigation />
+      <Header>
+        {" "}
+        <Navigation />
+      </Header>
       <Content>
-        <TextBox date="22-05-28" headline="Save The Date" />
+        <HeroImage />
       </Content>
       <Footer>Footer</Footer>
     </Layout>
