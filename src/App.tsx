@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navigation } from "./components/header";
-import { TextBox } from "./components/centerText";
+import { TextBox } from "./components/textBox";
 import { Layout } from "antd";
 const { Footer, Content } = Layout;
 
